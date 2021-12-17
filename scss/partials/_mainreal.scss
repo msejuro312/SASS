@@ -1,0 +1,23 @@
+#main {
+    background-image: linear-gradient(to bottom, $miazul, $miverde);
+    color: $miblanco;
+    font-family: 'Signika Negative', sans-serif; }
+  
+  #rowmain {
+    height: 70vh; }
+  
+  h1 {
+    animation-duration: 5s;
+    animation-name: show;
+    animation-iteration-count: infinite; }
+  
+  @keyframes show {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 4; } }
+  
+  #imgCD {
+    background-image: url(../assets/directorio.png);
+    background-position: center;
+    background-size: cover; }

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+#main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0056A7), to(#66999B));
+  background-image: linear-gradient(to bottom, #0056A7, #66999B);
+  color: #FFFEFE;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+#rowmain {
+  height: 70vh;
+}
+
+h1 {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: show;
+          animation-name: show;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 4;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 4;
+  }
+}
+
+#imgCD {
+  background-image: url(../assets/directorio.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0056A7), to(#66999B));
+  background-image: linear-gradient(to bottom, #0056A7, #66999B);
+  color: #FFFEFE;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+#mapa {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#rowfooter {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#direccion {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
