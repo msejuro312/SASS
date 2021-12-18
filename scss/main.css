@@ -5,7 +5,6 @@
 
 .nav-item:hover {
   background-color: #3498db;
-  color: #FFFEFE;
 }
 
 #main {
@@ -62,6 +61,8 @@ h1 {
 #mapa {
   margin-top: 10px;
   margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
 }
 
 #rowfooter {
