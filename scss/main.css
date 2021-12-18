@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+.nav-item {
+  border-radius: 10%;
+}
+
+.nav-item:hover {
+  background-color: #3498db;
+  color: #FFFEFE;
+}
+
 #main {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0056A7), to(#66999B));
   background-image: linear-gradient(to bottom, #0056A7, #66999B);
