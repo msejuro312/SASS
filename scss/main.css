@@ -112,12 +112,6 @@ h1 {
           justify-content: center;
 }
 
-#direccion {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .separador {
   height: 10px !important;
   margin: 0px !important;
