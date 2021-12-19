@@ -4,5 +4,10 @@
 @import "./partials/mainreal";
 @import "./partials/footer";
 
-
+.separador{
+    height: 10px !important;
+    margin: 0px !important;
+    background-color: $miazul;
+    opacity: 0.75 !important;
+}
 
