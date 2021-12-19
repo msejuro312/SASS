@@ -88,10 +88,6 @@ h1 {
   }
 }
 
-#facebook {
-  border: 10px;
-}
-
 #footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0056A7), to(#66999B));
   background-image: linear-gradient(to bottom, #0056A7, #66999B);
@@ -104,12 +100,6 @@ h1 {
   margin-bottom: 5px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
-}
-
-#rowfooter {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .separador {
