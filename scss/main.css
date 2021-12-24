@@ -48,12 +48,6 @@ h1 {
   }
 }
 
-#imgCD {
-  background-image: url(../assets/directorio.png);
-  background-position: center;
-  background-size: cover;
-}
-
 .color-change-2x {
   -webkit-animation: color-change-2x 2s linear infinite alternate both;
   animation: color-change-2x 2s linear infinite alternate both;
@@ -86,6 +80,38 @@ h1 {
   100% {
     background: #3498db;
   }
+}
+
+#imgCD {
+  background-image: url(../assets/directorio.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.btncd {
+  list-style: none;
+}
+
+.btncd1, .btncd2, .btncd3 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  background-color: #66999B;
+  font-size: 1.5em;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 45%;
+  border: solid;
+}
+
+.btncd2 {
+  background-color: #FFFEFE;
+  color: black;
+}
+
+.btncd3 {
+  background-color: salmon;
 }
 
 #footer {

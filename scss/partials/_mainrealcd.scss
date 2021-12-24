@@ -1,0 +1,40 @@
+#imgCD {
+    background-image: url(../assets/directorio.png);
+    background-position: center;
+    background-size: cover; }
+
+
+.btncd {  
+    list-style: none; 
+}
+
+.btncd1{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    background-color: $miverde;
+    font-size: 1.5em;
+    padding: 5px*4;
+    margin: 5px*4;
+    border-radius: 45%;
+    border: solid;
+    
+}
+
+.btncd2{
+    @extend .btncd1;
+    background-color: $miblanco;
+    color: black;
+   
+    
+}
+
+.btncd3{
+    @extend .btncd1;
+    background-color: salmon;
+}
+
+
+
+
