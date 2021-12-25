@@ -105,6 +105,12 @@ h1 {
   border: solid;
 }
 
+@media screen and (max-width: 768px) {
+  .btncd1, .btncd2, .btncd3 {
+    font-size: 1rem;
+  }
+}
+
 .btncd2 {
   background-color: #FFFEFE;
   color: black;
