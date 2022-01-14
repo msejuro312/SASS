@@ -6,15 +6,18 @@ $estilosfooter:(
     padding: 20px 20px 20px 20px,
     background: linear-gradient(to bottom, $miazul, $miverde),
     color: $miblanco,
-    font: 'Signika Negative'
+    font: 'Signika Negative',   
+    
     );
+
 
 
 #footer{
   background-image: map-get($estilosfooter, background);
   color: map-get($estilosfooter, color) ;
   font-family: map-get($estilosfooter, font) ;
-
+  
+  
 }    
 
 #mapa{
