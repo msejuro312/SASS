@@ -9,7 +9,7 @@
   h1 {
     animation-duration: 5s;
     animation-name: show;
-    animation-iteration-count: infinite; }
+    animation-iteration-count: one; }
   
   @keyframes show {
     0% {
