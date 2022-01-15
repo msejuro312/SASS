@@ -16,13 +16,15 @@
     list-style: none;
     display: block;
     background-color: $miverde;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 5px*4;
     margin: 5px*4;
-    border-radius: 45%;
+    border-radius: 25%;
     border: solid;
     @include moviles{
-        font-size: 1rem;
+        font-size: 0.75rem;
+        padding: 3px*4;
+        margin: 3px*4;
     }
 
 
@@ -46,7 +48,7 @@
 
 .btncd3{
     @extend .btncd1;
-    background-color: salmon;
+    background-color: slateblue;
 }
 
 

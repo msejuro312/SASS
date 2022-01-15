@@ -105,16 +105,18 @@ h1 {
   list-style: none;
   display: block;
   background-color: #66999B;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 20px;
   margin: 20px;
-  border-radius: 45%;
+  border-radius: 25%;
   border: solid;
 }
 
 @media screen and (max-width: 768px) {
   .btncd1, .btncd2, .btncd3 {
-    font-size: 1rem;
+    font-size: 0.75rem;
+    padding: 12px;
+    margin: 12px;
   }
 }
 
@@ -124,7 +126,7 @@ h1 {
 }
 
 .btncd3 {
-  background-color: salmon;
+  background-color: slateblue;
 }
 
 #footer {
