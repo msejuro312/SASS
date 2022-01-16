@@ -137,11 +137,14 @@ h1 {
 }
 
 #mapa {
-  overflow: hidden;
   margin-top: 10px;
   margin-bottom: 5px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
+}
+
+#rowmain {
+  overflow: hidden;
 }
 
 .separador {

@@ -21,12 +21,16 @@ $estilosfooter:(
 }    
 
 #mapa{
-    overflow: hidden;
+    
     margin-top: map-get($estilosfooter, top);
     margin-bottom: map-get($estilosfooter, bottom);
     border-radius: map-get($estilosfooter, radius);
     padding: map-get($estilosfooter, padding);
 
+}
+
+#rowmain{
+  overflow: hidden;
 }
 
 
