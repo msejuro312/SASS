@@ -28,6 +28,15 @@
   height: 80vh;
 }
 
+.description {
+  padding: 20px;
+  background-color: #3498db;
+}
+
+.description1 {
+  color: black;
+}
+
 h1 {
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
