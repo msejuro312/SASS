@@ -147,6 +147,10 @@ h1 {
   overflow: hidden;
 }
 
+.footlink {
+  color: black;
+}
+
 .separador {
   height: 10px !important;
   margin: 0px !important;
