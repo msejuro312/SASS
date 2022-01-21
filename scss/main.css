@@ -134,6 +134,7 @@ h1 {
   background-image: linear-gradient(to bottom, #0056A7, #66999B);
   color: #FFFEFE;
   font-family: "Signika Negative";
+  overflow: hidden;
 }
 
 #mapa {
@@ -141,10 +142,6 @@ h1 {
   margin-bottom: 5px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
-}
-
-#rowmain {
-  overflow: hidden;
 }
 
 .footlink {

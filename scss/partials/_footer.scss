@@ -16,6 +16,7 @@ $estilosfooter:(
   background-image: map-get($estilosfooter, background);
   color: map-get($estilosfooter, color) ;
   font-family: map-get($estilosfooter, font) ;
+  overflow: hidden;
   
   
 }    
@@ -26,12 +27,11 @@ $estilosfooter:(
     margin-bottom: map-get($estilosfooter, bottom);
     border-radius: map-get($estilosfooter, radius);
     padding: map-get($estilosfooter, padding);
+  
 
 }
 
-#rowmain{
-  overflow: hidden;
-}
+
 
 .footlink{
   color: black;
