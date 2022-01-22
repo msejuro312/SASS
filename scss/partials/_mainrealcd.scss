@@ -52,12 +52,30 @@
 }
 
 .logo{
+    
     margin: 5px*4;
-    display: block;
+    display: inline;
+    
     @include moviles{
         display: inline;
+       
     }
 }
+
+.logo1 {
+    width: 80px ;
+    height: 80px ;
+    @include moviles {
+        width: 50px ;
+        height: 50px ;
+    }
+}
+
+#imgcontact{
+    object-fit: cover;
+}
+
+
 
 
 
