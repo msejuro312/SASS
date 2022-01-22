@@ -33,10 +33,6 @@
   background-color: #3498db;
 }
 
-.description1 {
-  color: black;
-}
-
 h1 {
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
@@ -117,7 +113,7 @@ h1 {
   font-size: 1em;
   padding: 20px;
   margin: 20px;
-  border-radius: 25%;
+  border-radius: 5%;
   border: solid;
 }
 
@@ -151,10 +147,6 @@ h1 {
   margin-bottom: 5px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
-}
-
-.footlink {
-  color: black;
 }
 
 .separador {
