@@ -54,6 +54,9 @@
 .logo{
     margin: 5px*4;
     display: block;
+    @include moviles{
+        display: inline;
+    }
 }
 
 

@@ -139,6 +139,12 @@ h1 {
   display: block;
 }
 
+@media screen and (max-width: 768px) {
+  .logo {
+    display: inline;
+  }
+}
+
 #footer {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0056A7), to(#66999B));
   background-image: linear-gradient(to bottom, #0056A7, #66999B);
