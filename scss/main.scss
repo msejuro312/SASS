@@ -6,11 +6,7 @@
 @import "./partials/mainrealcd";
 @import "./partials/footer";
 @import "./partials/media-queries";
+@import "./partials/components"
 
-.separador{
-    height: 10px !important;
-    margin: 0px !important;
-    background-image: linear-gradient(to bottom, $miazul, $miceleste);
-    opacity: 0.75 !important;
-}
+
 
