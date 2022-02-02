@@ -16,13 +16,13 @@
     list-style: none;
     display: block;
     background-color: $miverde;
-    font-size: 1em;
+    font-size: 2em;
     padding: 5px*4;
     margin: 5px*4;
     border-radius: 5%;
     border: solid;
     @include moviles{
-        font-size: 0.75rem;
+        font-size: 0.75 em;
         padding: 3px*4;
         margin: 3px*4;
     }
@@ -74,6 +74,10 @@
 
 #imgcontact{
     object-fit: cover;
+}
+
+.tilo{
+    padding: 20px;
 }
 
 
