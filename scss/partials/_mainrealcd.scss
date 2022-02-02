@@ -8,6 +8,7 @@
 
 .btncd {  
     list-style: none; 
+    padding-left: 0px;
 }
 
 @mixin btncds {
@@ -16,13 +17,13 @@
     list-style: none;
     display: block;
     background-color: $miverde;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 5px*4;
     margin: 5px*4;
     border-radius: 5%;
     border: solid;
     @include moviles{
-        font-size: 0.75 em;
+        font-size: 0.5 em;
         padding: 3px*4;
         margin: 3px*4;
     }
@@ -53,8 +54,8 @@
 
 .logo{
     
-    margin: 5px*4;
-    padding: 5px*4;
+    margin: 1.5px*4;
+    padding: 1.5px*4;
     display: inline;
     
     @include moviles{
