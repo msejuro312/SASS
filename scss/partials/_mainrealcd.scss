@@ -12,7 +12,7 @@
 }
 
 @mixin btncds {
-    color: white;
+    color: #e3e9ff;
     text-decoration: none;
     list-style: none;
     display: block;
@@ -41,15 +41,17 @@
 
 .btncd2{
     @extend .btncd1;
-    background-color: $miblanco;
-    color: black;
+    background-color: #c4ffff;
+    color: #00002e;
    
     
 }
 
+
+
 .btncd3{
     @extend .btncd1;
-    background-color: slateblue;
+    background-color: #00bbbd;
 }
 
 .logo{
@@ -81,6 +83,10 @@
     padding: 20px;
 }
 
+.logos{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
 
 
 
